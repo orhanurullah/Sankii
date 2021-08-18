@@ -6,7 +6,7 @@ namespace Sankii\App\Controllers;
 
 use Illuminate\Routing\Controller;
 
-class EntityControllers extends Controller
+class EntityController extends Controller
 {
 
     public function index(){

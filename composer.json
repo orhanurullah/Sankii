@@ -1,0 +1,42 @@
+{
+    "name": "orti/sankii",
+    "description": "Project is starting...",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "orhanurullah",
+            "email": "orhann.1512@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/contracts": "^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sankii\\App\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sankii\\App\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sankii\\App\\Providers\\SankiiServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

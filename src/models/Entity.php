@@ -1,10 +1,12 @@
 <?php
 
-
 namespace Sankii\App\Models;
 
 
-class Entity
+use Illuminate\Database\Eloquent\Model;
+
+class Entity extends Model
 {
 
+    protected $guarded = [];
 }
